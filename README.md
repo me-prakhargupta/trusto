@@ -4,14 +4,20 @@ Trusto is a service platform designed to help individuals handle official tasks,
 
 Problem Statement - 
 In India, completing official paperwork is often:
+<br/>
 a) Time-consuming
+<br/>
 b) Confusing
+<br/>
 c) Requires physical presence
+<br/>
 c) Hard to manage with work/studies
 
 Trusto aims to reduce friction by allowing users to delegate tasks responsibly while maintaining trust, transparency, and security.
 
 Tech Stack Technologies -
 For Frontend: React, HTML, CSS, JS
+<br/>
 For Styling: Bootstrap, Custom CSS
+<br/>
 For Icons: Font Awesome
