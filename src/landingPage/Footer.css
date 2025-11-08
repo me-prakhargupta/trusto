@@ -1,0 +1,174 @@
+#footer-container {
+    background-color: #ECFDF5;
+    border-top: 2px solid #10B981;
+    padding-top: 2.5rem !important;
+}
+
+.socials-icons {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 1em;
+}
+
+i {
+    color: #525252;;
+}
+
+i:hover {
+    opacity: 0.7;
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+
+.border-line {
+    width: 95%;
+    margin: 0 auto !important;
+    margin-top: 1em !important;
+}
+
+@media (max-width: 576px) {
+    .brand-icon {
+        width: 2.5em;
+        height: auto;
+    }
+
+    .brand-name-icon {
+        margin-left: 0.2em !important;
+        width: 7em;
+        height: auto;
+    }
+
+    .socials-icons {
+        justify-self: start;
+    }
+
+    .socials-list {
+        margin-top: 0.25em !important;
+        margin-bottom: 0.25em !important;
+    }
+
+    .border-line {
+        margin: 0 !important;
+        margin-top: 0.2em !important;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .brand-icon {
+        width: 2.75em;
+        height: auto;
+    }
+
+    .brand-name-icon {
+        margin-left: 0.2em !important;
+        width: 8.5em;
+        height: auto;
+    }
+
+    .socials-icons {
+        justify-self: start !important;
+        flex-wrap: nowrap;
+    }
+
+    .socials-list {
+        margin-top: 0.3em !important;
+        /* margin-bottom: 1em !important */
+    }
+
+    .border-line {
+        width: 70%;
+        margin: 0 !important;
+        margin-top: 0.3em !important;
+    }
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #6B7280;
+    margin-left: 0.15em !important;
+}
+
+.footer-links a:hover {
+    color: #059669;
+    transition: 0.2s ease-in-out;
+}
+
+.newsletter-info {
+    color: #6B7280;
+}
+
+.newsletter-input-form {
+    height: 3em;
+    width: 85%;
+    border: 1px solid #059669;
+    border-radius: 8px;
+    outline: #059669;
+    padding-left: 1em !important;
+}
+
+.newsletter-btn {
+    height: 3em;
+    background-color: #10B981;
+    width: 12%;
+    border: 1px solid #10B981;
+    border-radius: 8px;
+    margin-left: 1em !important;
+}
+
+.newsletter-btn:hover {
+    color: white;
+    background-color: #0b8059;
+    border: 5px solid #0b8059;
+    box-shadow: 0 4px 12px rgba(16,185,129,0.3);
+}
+
+.brand-msg {
+    text-align: center;
+}
+
+.brand-msg a {
+    text-decoration: none;
+    color: black;
+}
+
+.brand-msg a:hover {
+    text-decoration: underline;
+    color: #07a36f;
+}
+
+@media (max-width: 576px) {
+    .newsletter-input-form {
+        height: 2.5em;
+        width: 95%;
+    }
+
+    .newsletter-btn {
+        height: 2.5em;
+        width: 35%;
+        margin-top: 1em !important;
+        margin-left: 0 !important;
+    }
+
+    .brand-msg {
+        text-align: center;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+    .newsletter-input-form {
+        height: 2.5em;
+        width: 95%;
+    }
+
+    .newsletter-btn {
+        height: 2.5em;
+        width: 35%;
+        margin-top: 1em !important;
+        margin-left: 0 !important;
+    }
+}

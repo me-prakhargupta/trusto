@@ -1,0 +1,24 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.row {
+    width: 80%;
+    margin: 0 auto !important;
+}
+
+.brand-logo {
+    display: flex;
+}
+
+.brand-icon {
+    width: 4em;
+    height: auto;
+}
+
+.brand-name-icon {
+    margin-left: 0.25em !important;
+    width: 10em;
+    height: auto;
+}
