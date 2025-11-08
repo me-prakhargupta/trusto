@@ -16,6 +16,7 @@ c) Hard to manage with work/studies
 Trusto aims to reduce friction by allowing users to delegate tasks responsibly while maintaining trust, transparency, and security.
 
 Tech Stack Technologies -
+<br/>
 For Frontend: React, HTML, CSS, JS
 <br/>
 For Styling: Bootstrap, Custom CSS
