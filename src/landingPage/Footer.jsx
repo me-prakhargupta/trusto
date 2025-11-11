@@ -25,7 +25,7 @@ function Footer() {
             </div>
             <div className="row">
                 <div className="col-12 col-md-4 mt-4 footer-links-col">
-                    <h4 className="">Company</h4>
+                    <h5 className="">Company</h5>
                     <ul className="footer-links mt-2">
                         <li><a href="">Careers</a></li>
                         <li><a href="">Blog</a></li>
@@ -34,7 +34,7 @@ function Footer() {
                     </ul>
                 </div>
                 <div className="col-12 col-md-4 mt-4 footer-links-col">
-                    <h4 className="">Legal</h4>
+                    <h5 className="">Legal</h5>
                     <ul className="footer-links mt-2">
                         <li><a href="">Terms & Conditions</a></li>
                         <li><a href="">Privacy Policy</a></li>
@@ -43,7 +43,7 @@ function Footer() {
                     </ul>
                 </div>
                 <div className="col-12 col-md-4 mt-4 footer-links-col">
-                    <h4 className="">Resources</h4>
+                    <h5 className="">Resources</h5>
                     <ul className="footer-links mt-2">
                         <li><a href="">FAQs</a></li>
                         <li><a href="">Documentation</a></li>

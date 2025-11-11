@@ -1,0 +1,73 @@
+.not-found-page {
+    padding: 3em !important;
+    text-align: center;
+    margin: 0 auto !important;
+    justify-content: center;
+}
+
+.not-found-page p {
+    width: 67%;
+    font-size: 3.5em;
+    font-weight: 700;
+}
+
+.error-form {
+    display: flex;
+    justify-content: center !important;
+}
+
+form input {
+    height: 3em;
+    width: 56%;
+    padding-left: 1em !important;
+    outline: none;
+    border: 1px solid #059669;
+    border-radius: 8px;
+}
+
+.visit-site {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em !important;
+    margin-bottom: 4em !important;
+}
+
+.visit-site a {
+    color: #0D6EFD;
+    text-decoration: none;
+}
+
+.visit-site i {
+    color: #0D6EFD;
+    font-size: 0.8em;
+}
+
+.visit-site a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+    .not-found-page p {
+        width: 65%;
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+
+    form input {
+        height: 2em;
+        width: 45%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 902px) {
+    .not-found-page p {
+        width: 65%;
+        font-size: 2em;
+        font-weight: 600;
+    }
+
+    form input {
+        height: 2.5em;
+        width: 55%;
+    }
+}
