@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/praja/Desktop/Trusto/frontend/components/form/InputForm.tsx"],"sourcesContent":["\"use client\";\r\n\r\nexport default function Form() {\r\n    return(\r\n            <form>\r\n                <input className=\"mt-7 flex item-center w-150 h-12 outline-none p-7 border-2 rounded-4xl border-[#028174] mx-auto\" type=\"text\" placeholder=\"What do you need help with today?\"/>\r\n            </form>\r\n    );\r\n};"],"names":[],"mappings":";;;;;AAAA;;AAEe,SAAS;IACpB,qBACQ,6LAAC;kBACG,cAAA,6LAAC;YAAM,WAAU;YAAkG,MAAK;YAAO,aAAY;;;;;;;;;;;AAG3J;KANwB"}}]
+}

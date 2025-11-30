@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/praja/Desktop/Trusto/frontend/app/services/page.tsx"],"sourcesContent":["export default function ServicesPage() {\r\n    return(\r\n        <div>Hey from Services</div>\r\n    );\r\n};\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACpB,qBACI,8OAAC;kBAAI;;;;;;AAEb"}}]
+}

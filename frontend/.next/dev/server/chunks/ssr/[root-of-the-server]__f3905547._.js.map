@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/praja/Desktop/Trusto/frontend/components/hero/HomeHero.tsx"],"sourcesContent":["export default function HomeHero() {\r\n    return(\r\n        <div>Home's Hero</div>\r\n    );\r\n};"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACpB,qBACI,8OAAC;kBAAI;;;;;;AAEb"}},
+    {"offset": {"line": 37, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/praja/Desktop/Trusto/frontend/components/homepage/Home.tsx"],"sourcesContent":["import HomeHero from \"../hero/HomeHero\";\r\n\r\nexport default function Home() {\r\n    return(\r\n        <>\r\n        <HomeHero/>\r\n        </>\r\n    );\r\n};"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACpB,qBACI;kBACA,cAAA,8OAAC,0IAAQ;;;;;;AAGjB"}},
+    {"offset": {"line": 58, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/praja/Desktop/Trusto/frontend/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\nimport HomePage from \"../components/homepage/Home\";\n\nexport default function Home() {\n  return (\n    <div className=\"mt-10\">\n      <HomePage/>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AACA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC,0IAAQ;;;;;;;;;;AAGf"}}]
+}

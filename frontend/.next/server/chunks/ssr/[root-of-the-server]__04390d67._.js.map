@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../app/services/page.tsx"],"sourcesContent":["export default function ServicesPage() {\r\n    return(\r\n        <div>Hey from Services</div>\r\n    );\r\n};\r\n"],"names":[],"mappings":"qVAAe,SAAS,IACpB,MACI,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UAAI,qBAEb"}

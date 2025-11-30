@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/8f8057bc76798ca1.js"],""]
+3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"LLBCfNx_gghxty_RtufOV","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"px-45 py-32 max-w mx-auto bg-white","children":[["$","h1",null,{"className":"leading-[1.1] text-center text-5xl font-extrabold text-[#028174]","children":"This page is currently"}],["$","h1",null,{"className":"leading-[1.1] text-center text-5xl font-extrabold text-[#028174]","children":[["$","span",null,{"className":"bg-gradient-to-r from-[#028174] to-[#0AB68B] bg-clip-text text-transparent","children":"under-construction"}],"."]}],["$","p",null,{"className":"mt-8 text-center text-gray-600","children":"Our team is growing soon — and we’ll be looking for"}],["$","p",null,{"className":"text-center text-gray-600","children":"people who want to make lives easier."}],["$","$L2",null,{"href":"/","className":"w-33 mt-8 text-white bg-[#0AB68B] hover:bg-[#028174] px-6 py-3 rounded-lg font-medium mx-auto block transition-all shadow-sm hover:shadow","children":"Visit Trusto"}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null
