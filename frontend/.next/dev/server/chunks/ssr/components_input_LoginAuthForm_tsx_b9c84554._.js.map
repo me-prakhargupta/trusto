@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/praja/Desktop/Trusto/frontend/components/input/LoginAuthForm.tsx"],"sourcesContent":["\"use client\";\r\n\r\ninterface AuthFormProps {\r\n    type?: string,\r\n    lable: string,\r\n    name: string,\r\n}\r\n\r\nexport default function FloatingInput({type, lable, name}: AuthFormProps) {\r\n  return (\r\n    <div className=\"relative w-full\">\r\n      <input type={type} name={name} placeholder=\"\" \r\n      className=\"peer block w-full px-4 py-3 text-gray-900 bg-gray-50 border-b-3 border-[#028174] focus:outline-none focus:border-[#028174] mb-8 h-15\"/>\r\n\r\n      <label className=\"pointer-events-none absolute outline:none text-gray-500 left-4 top-3 px-1 transition-all duration-200 peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:-top-2 peer-focus:text-sm peer-focus:text-[#028174] bg-gray-50\">{lable}</label>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;;AAQe,SAAS,cAAc,EAAC,IAAI,EAAE,KAAK,EAAE,IAAI,EAAgB;IACtE,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;gBAAM,MAAM;gBAAM,MAAM;gBAAM,aAAY;gBAC3C,WAAU;;;;;;0BAEV,8OAAC;gBAAM,WAAU;0BAAsR;;;;;;;;;;;;AAG7S"}}]
+}

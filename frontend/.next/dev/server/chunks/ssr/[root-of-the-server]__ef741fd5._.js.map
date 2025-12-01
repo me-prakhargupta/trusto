@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/praja/Desktop/Trusto/frontend/components/progressBar/progressBar.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { useEffect } from \"react\";\r\nimport { usePathname } from \"next/navigation\";\r\nimport NProgress from \"nprogress\";\r\nimport \"nprogress/nprogress.css\";\r\n\r\nNProgress.configure({\r\n  showSpinner: false,\r\n  trickleSpeed: 120,\r\n});\r\n\r\nexport default function ProgressBar() {\r\n  const pathname = usePathname();\r\n\r\n  useEffect(() => {\r\n    NProgress.start();\r\n\r\n    const timer = setTimeout(() => {\r\n      NProgress.done();\r\n    }, 200);\r\n\r\n    return () => clearTimeout(timer);\r\n  }, [pathname]);\r\n\r\n  return null;\r\n}\r\n"],"names":[],"mappings":";;;;AAEA;AACA;AACA;AAJA;;;;;AAOA,iJAAS,CAAC,SAAS,CAAC;IAClB,aAAa;IACb,cAAc;AAChB;AAEe,SAAS;IACtB,MAAM,WAAW,IAAA,iJAAW;IAE5B,IAAA,kNAAS,EAAC;QACR,iJAAS,CAAC,KAAK;QAEf,MAAM,QAAQ,WAAW;YACvB,iJAAS,CAAC,IAAI;QAChB,GAAG;QAEH,OAAO,IAAM,aAAa;IAC5B,GAAG;QAAC;KAAS;IAEb,OAAO;AACT"}}]
+}

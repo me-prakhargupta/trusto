@@ -32,7 +32,7 @@ function Form() {
     // };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-            className: "mt-7 flex item-center w-150 h-12 outline-none p-7 border-2 rounded-4xl border-[#028174] mx-auto",
+            className: "mt-7 flex item-center w-170 h-12 outline-none p-8 border-2 rounded-4xl border-[#028174] mx-auto",
             type: "text",
             placeholder: "What do you need help with today?"
         }, void 0, false, {
@@ -65,7 +65,7 @@ function HomeHero() {
         className: "px-45 py-32 max-w mx-auto bg-white",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                className: "leading-[1.1] text-center text-5xl font-extrabold text-[#028174]",
+                className: "leading-[1.1] text-center text-6xl font-extrabold text-[#028174]",
                 children: "Your trusted way"
             }, void 0, false, {
                 fileName: "[project]/components/hero/HomeHero.tsx",
@@ -73,7 +73,7 @@ function HomeHero() {
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                className: "leading-[1.1] text-center text-5xl font-extrabold text-[#028174]",
+                className: "leading-[1.1] text-center text-6xl font-extrabold text-[#028174]",
                 children: [
                     "to get things ",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {

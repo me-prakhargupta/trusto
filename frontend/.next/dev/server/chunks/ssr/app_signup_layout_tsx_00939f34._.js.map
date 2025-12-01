@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/praja/Desktop/Trusto/frontend/app/signup/layout.tsx"],"sourcesContent":["// app/signup/layout.tsx\r\nexport default function SignupLayout({ any: children}) {\r\n  return (\r\n    <html lang=\"en\">\r\n      <body>{children}</body>\r\n    </html>\r\n  );\r\n}\r\n"],"names":[],"mappings":"AAAA,wBAAwB;;;;;;;AACT,SAAS,aAAa,EAAE,KAAK,QAAQ,EAAC;IACnD,qBACE,8OAAC;QAAK,MAAK;kBACT,cAAA,8OAAC;sBAAM;;;;;;;;;;;AAGb"}}]
+}

@@ -1,13 +1,14 @@
 "use client"
 
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
     return(
         <div className="px-45 py-3 flex item-center justify-between  border-b-[0.5px] border-[#028174] bg-white">
 
-            <div className="logo font-bold flex item-center text-black py-1.5">
-                <Link href="/">Trusto</Link>
+            <div className="logo font-bold flex item-center text-black">
+                <Link href="/"><Image className="" src="/brand-logo.png" alt="Trusto" width={200} height={200}/></Link>
             </div>
 
             <div className="nav flex item-center gap-10">

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/praja/Desktop/Trusto/frontend/app/signup/page.tsx"],"sourcesContent":["import Link from \"next/link\";\r\n\r\nexport default function SignupPage() {\r\n    return(\r\n        <div className=\"bg-[#028174] min-h-screen\">\r\n            \r\n        </div>\r\n    );\r\n};"],"names":[],"mappings":";;;;;;AAEe,SAAS;IACpB,qBACI,8OAAC;QAAI,WAAU;;;;;;AAIvB"}}]
+}
