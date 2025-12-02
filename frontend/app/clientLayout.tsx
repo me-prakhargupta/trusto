@@ -2,6 +2,7 @@
 import { usePathname } from "next/navigation";
 import Navbar from "@/components/common/Navbar";
 import Footer from "@/components/common/Footer";
+import DashboardPage from "./dashboard/page";
 export default function ClientLayout({
     children,
 } : {
@@ -10,7 +11,7 @@ export default function ClientLayout({
 
     const pathname = usePathname();
 
-    const authRoutes = ["/login", "/signup"];
+    const authRoutes = ["/dashboard", "/login", "/signup"];
     const hideLayout = authRoutes.includes(pathname);
 
     return(

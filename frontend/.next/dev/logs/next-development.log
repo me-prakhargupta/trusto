@@ -1,20 +1,11 @@
-[00:00:02.389] Server  LOG      ✓ Ready in 1578ms
-[00:00:10.057] Server  LOG      ○ Compiling / ...
-[00:00:12.885] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:18.013] Browser WARN    Image with src "/brand-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:32.243] Server  LOG      ✓ Compiled in 65ms
-[00:02:33.267] Browser ERROR   uncaughtError: TypeError: Failed to construct 'Image': Please use the 'new' operator, this DOM object constructor cannot be called as a function.
-[00:02:44.585] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:02:44.586] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:02:44.587] Server  LOG      ✓ Compiled in 412ms
-[00:02:44.833] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:02:45.545] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:45.777] Browser WARN    Image with src "/brand-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:52.780] Server  LOG      ✓ Compiled in 53ms
-[00:03:00.034] Server  LOG      ✓ Compiled in 40ms
-[00:04:10.444] Server  LOG      ✓ Compiled in 40ms
-[00:07:56.751] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:56.998] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:04.857] Server  LOG      ✓ Ready in 3.6s
+[00:00:09.661] Server  LOG      ○ Compiling / ...
+[00:00:20.677] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:20.677] Browser WARN    Image with src "/brand-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:11.066] Server  LOG      ✓ Compiled in 144ms
+[00:01:11.562] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:01:16.447] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:17.845] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -32,7 +23,289 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/signup" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         style={{--vsc-domain:"\"localhost\""}}
+                        >
+                  ...
+
+[00:01:17.845] Browser WARN    Image with src "/brand-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:41.463] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:41.595] Browser WARN    Image with src "/brand-logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:01:41.595] Browser WARN    Image with src "/brand-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:15.154] Server  LOG      ✓ Compiled in 71ms
+[00:02:29.972] Server  LOG      ✓ Compiled in 65ms
+[00:03:07.605] Server  LOG      ✓ Compiled in 60ms
+[00:03:24.828] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\.next\dev\server\chunks\ssr\[root-of-the-server]__9649d77b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:24.832] Server  ERROR    ⨯ ReferenceError: Link is not defined
+[00:03:25.840] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[00:03:40.091] Server  LOG      ✓ Compiled in 123ms
+[00:03:40.372] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\.next\dev\server\chunks\ssr\[root-of-the-server]__9649d77b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:40.373] Server  ERROR    ⨯ ReferenceError: Image is not defined
+[00:03:41.327] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:41.862] Browser ERROR   uncaughtError: ReferenceError: Image is not defined
+[00:03:47.291] Server  LOG      ✓ Compiled in 63ms
+[00:03:48.730] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:48.875] Browser WARN    Image with src "/brand-logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:03:48.876] Browser WARN    Image with src "/brand-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:05:31.925] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? crossorigin crossOrigin
+[00:05:31.925] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? referrerpolicy referrerPolicy
+[00:09:10.838] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:09:15.324] Server  LOG      ✓ Compiled in 64ms
+[00:10:16.245] Server  LOG      ✓ Compiled in 141ms
+[00:10:20.238] Server  LOG      ✓ Compiled in 108ms
+[00:13:02.175] Server  LOG      ✓ Compiled in 58ms
+[00:14:31.944] Server  LOG      ✓ Compiled in 84ms
+[00:14:59.157] Server  LOG      ✓ Compiled in 133ms
+[00:26:25.918] Server  LOG      ✓ Compiled in 276ms
+[00:26:28.261] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:28.918] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         style={{--vsc-domain:"\"localhost\""}}
+                        >
+                  ...
+
+[00:26:51.388] Server  LOG      ✓ Compiled in 76ms
+[00:27:21.022] Server  LOG      ✓ Compiled in 78ms
+[00:27:42.581] Server  LOG      ✓ Compiled in 78ms
+[00:28:14.149] Server  LOG      ✓ Compiled in 121ms
+[00:28:28.540] Server  LOG      ✓ Compiled in 89ms
+[00:28:43.066] Server  LOG      ✓ Compiled in 93ms
+[00:29:21.757] Server  LOG      ✓ Compiled in 62ms
+[00:29:46.015] Server  LOG      ✓ Compiled in 77ms
+[00:30:53.617] Server  LOG      ✓ Compiled in 60ms
+[00:31:13.718] Server  LOG      ✓ Compiled in 66ms
+[00:32:23.663] Server  LOG      ✓ Compiled in 59ms
+[00:32:34.828] Server  LOG      ✓ Compiled in 126ms
+[00:37:38.842] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:37:41.562] Server  LOG      ✓ Compiled in 126ms
+[00:37:56.751] Server  LOG      ✓ Compiled in 45ms
+[00:38:08.901] Server  LOG      ✓ Compiled in 111ms
+[00:38:16.795] Server  LOG      ✓ Compiled in 62ms
+[00:39:12.399] Server  LOG      ✓ Compiled in 161ms
+[00:39:23.854] Server  LOG      ✓ Compiled in 64ms
+[00:39:37.249] Server  LOG      ✓ Compiled in 159ms
+[00:42:37.709] Server  LOG      ✓ Compiled in 111ms
+[00:44:08.874] Server  LOG      ✓ Compiled in 91ms
+[00:44:31.036] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:47.910] Server  LOG      ✓ Compiled in 121ms
+[00:47:03.319] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:03.542] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         style={{--vsc-domain:"\"localhost\""}}
+                        >
+                          <head>
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           data-new-gr-c-s-check-loaded="14.1264.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:47:12.825] Server  LOG      ✓ Compiled in 119ms
+[00:47:38.928] Server  LOG      ✓ Compiled in 63ms
+[00:48:10.007] Server  LOG      ✓ Compiled in 108ms
+[00:48:20.910] Server  LOG      ✓ Compiled in 82ms
+[00:48:32.453] Server  LOG      ✓ Compiled in 61ms
+[00:48:46.304] Server  LOG      ✓ Compiled in 125ms
+[00:49:28.656] Server  LOG      ✓ Compiled in 119ms
+[00:49:33.849] Server  LOG      ✓ Compiled in 59ms
+[00:49:45.473] Server  LOG      ✓ Compiled in 110ms
+[00:50:04.844] Server  LOG      ✓ Compiled in 59ms
+[00:50:30.227] Server  LOG      ✓ Compiled in 110ms
+[00:50:35.226] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:35.881] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         style={{--vsc-domain:"\"localhost\""}}
+                        >
+                          <head>
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           data-new-gr-c-s-check-loaded="14.1264.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:50:40.049] Server  LOG      ✓ Compiled in 46ms
+[00:53:09.634] Server  LOG      ✓ Compiled in 132ms
+[00:55:08.562] Server  LOG      ✓ Compiled in 60ms
+[00:55:25.855] Server  LOG      ✓ Compiled in 114ms
+[00:55:35.621] Server  LOG      ✓ Compiled in 190ms
+[00:55:55.518] Server  LOG      ✓ Compiled in 64ms
+[00:56:00.576] Server  LOG      ✓ Compiled in 60ms
+[00:56:15.393] Server  LOG      ✓ Compiled in 67ms
+[00:58:49.154] Server  LOG      ✓ Compiled in 170ms
+[00:59:08.247] Server  LOG      ✓ Compiled in 125ms
+[00:59:25.165] Server  LOG      ✓ Compiled in 46ms
+[01:01:59.180] Server  LOG      ✓ Compiled in 75ms
+[01:02:06.443] Server  LOG      ✓ Compiled in 108ms
+[01:02:23.380] Server  LOG      ✓ Compiled in 130ms
+[01:03:08.849] Server  LOG      ✓ Compiled in 171ms
+[01:05:20.907] Server  LOG      ✓ Compiled in 57ms
+[01:05:21.848] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[01:06:48.728] Server  LOG      ✓ Compiled in 67ms
+[01:06:54.577] Server  LOG      ✓ Compiled in 47ms
+[01:07:11.399] Server  LOG      ✓ Compiled in 50ms
+[01:08:45.677] Server  LOG      ✓ Compiled in 128ms
+[01:09:20.106] Server  LOG      ✓ Compiled in 64ms
+[01:10:59.906] Server  LOG      ✓ Compiled in 75ms
+[01:11:12.865] Server  LOG      ✓ Compiled in 64ms
+[01:11:52.554] Server  LOG      ✓ Compiled in 44ms
+[01:13:15.743] Server  LOG      ✓ Compiled in 63ms
+[01:14:19.465] Server  LOG      ✓ Compiled in 129ms
+[01:14:24.657] Server  LOG      ✓ Compiled in 59ms
+[01:15:45.257] Server  LOG      ✓ Compiled in 50ms
+[01:15:53.484] Server  LOG      ✓ Compiled in 74ms
+[01:18:42.680] Server  LOG      ✓ Compiled in 76ms
+[01:19:01.584] Server  LOG      ✓ Compiled in 65ms
+[01:19:39.027] Server  LOG      ✓ Compiled in 184ms
+[01:19:56.406] Server  LOG      ✓ Compiled in 58ms
+[01:20:01.786] Server  LOG      ✓ Compiled in 64ms
+[01:20:07.605] Server  LOG      ✓ Compiled in 90ms
+[01:20:35.344] Server  LOG      ✓ Compiled in 184ms
+[01:21:13.537] Server  LOG      ✓ Compiled in 68ms
+[01:22:10.993] Server  LOG      ✓ Compiled in 63ms
+[01:22:16.617] Server  LOG      ✓ Compiled in 120ms
+[01:22:59.008] Server  LOG      ✓ Compiled in 85ms
+[01:23:15.118] Server  LOG      ✓ Compiled in 124ms
+[01:24:02.595] Server  LOG      ✓ Compiled in 58ms
+[01:24:46.957] Server  LOG      ✓ Compiled in 63ms
+[01:32:16.913] Server  LOG      ✓ Compiled in 390ms
+[01:33:28.917] Server  LOG      ✓ Compiled in 183ms
+[01:41:21.820] Server  LOG      ✓ Compiled in 101ms
+[01:43:00.599] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:43:00.907] Browser WARN    Image with src "/brand-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:45:38.102] Server  LOG      ✓ Compiled in 90ms
+[01:54:14.560] Server  LOG      ✓ Compiled in 195ms
+[01:55:15.689] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:57:13.222] Server  LOG      ✓ Compiled in 121ms
+[01:57:30.505] Server  LOG      ✓ Compiled in 61ms
+[02:06:19.780] Server  LOG      ✓ Compiled in 106ms
+[02:08:43.730] Server  LOG      ✓ Compiled in 99ms
+[02:12:24.370] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:12:24.833] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -45,6 +318,7 @@ It can also happen if the client has a browser extension installed which messes 
                       <script>
                       <RootLayout>
                         <html lang="en">
+                          <head>
                           <body
                             className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
 -                           data-new-gr-c-s-check-loaded="14.1264.0"
@@ -52,5 +326,618 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:08:21.743] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:43.302] Browser WARN    Image with src "/brand-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:12:35.503] Server  LOG      ✓ Compiled in 106ms
+[02:14:32.758] Server  LOG      ✓ Compiled in 72ms
+[02:14:45.613] Server  LOG      ✓ Compiled in 109ms
+[02:14:50.467] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:15:23.521] Server  LOG      ✓ Compiled in 67ms
+[02:16:09.247] Server  LOG      ✓ Compiled in 85ms
+[02:17:26.863] Server  LOG      ✓ Compiled in 259ms
+[02:17:40.385] Server  LOG      ✓ Compiled in 63ms
+[02:17:55.446] Server  LOG      ✓ Compiled in 72ms
+[02:18:23.238] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:18:23.585] Browser WARN    Image with src "/brand-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:18:45.707] Server  LOG      ✓ Compiled in 69ms
+[02:19:44.686] Server  LOG      ✓ Compiled in 110ms
+[02:19:45.842] Browser ERROR   ./app/dashboard/page.tsx:24:129
+Parsing ecmascript source code failed
+  22 |                         <p onClick={handleSelect} className={select? "text-[#028174]" : "text-yellow-500"}>Menu testing</p>
+  23 |
+> 24 |                         <span className={select? "flex h-10 w-35 items-center rounded-4xl hover:cursor-pointer text-gray-500" : }>
+     |                                                                                                                                 ^
+  25 |                             <i className="fa-solid fa-square-poll-vertical text-lg"></i>
+  26 |                             <p className="px-2 py-1">Dashboard</p>
+  27 |                         </span>
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+[02:19:45.843] Browser ERROR   ./app/dashboard/page.tsx:24:129
+Parsing ecmascript source code failed
+  22 |                         <p onClick={handleSelect} className={select? "text-[#028174]" : "text-yellow-500"}>Menu testing</p>
+  23 |
+> 24 |                         <span className={select? "flex h-10 w-35 items-center rounded-4xl hover:cursor-pointer text-gray-500" : }>
+     |                                                                                                                                 ^
+  25 |                             <i className="fa-solid fa-square-poll-vertical text-lg"></i>
+  26 |                             <p className="px-2 py-1">Dashboard</p>
+  27 |                         </span>
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+[02:19:57.193] Server  LOG      ✓ Compiled in 74ms
+[02:20:12.786] Server  LOG      ✓ Compiled in 140ms
+[02:20:42.162] Server  LOG      ✓ Compiled in 108ms
+[02:21:20.591] Server  LOG      ✓ Compiled in 171ms
+[02:21:42.726] Server  LOG      ✓ Compiled in 101ms
+[02:22:04.179] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:22:33.607] Server  LOG      ✓ Compiled in 64ms
+[02:22:44.535] Server  LOG      ✓ Compiled in 196ms
+[02:23:31.844] Server  LOG      ✓ Compiled in 71ms
+[02:24:04.676] Server  LOG      ✓ Compiled in 60ms
+[02:24:19.043] Server  LOG      ✓ Compiled in 160ms
+[02:24:24.663] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:24:24.829] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           data-new-gr-c-s-check-loaded="14.1264.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[02:24:38.931] Server  LOG      ✓ Compiled in 104ms
+[02:24:43.705] Server  LOG      ✓ Compiled in 152ms
+[02:24:52.239] Server  LOG      ✓ Compiled in 87ms
+[02:24:58.128] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:24:58.274] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           data-new-gr-c-s-check-loaded="14.1264.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[02:25:22.362] Server  LOG      ✓ Compiled in 99ms
+[02:25:53.319] Server  LOG      ✓ Compiled in 61ms
+[02:26:08.624] Server  LOG      ✓ Compiled in 114ms
+[02:26:52.650] Server  LOG      ✓ Compiled in 113ms
+[02:27:11.360] Server  LOG      ✓ Compiled in 80ms
+[02:27:28.327] Server  LOG      ✓ Compiled in 132ms
+[02:27:45.663] Server  LOG      ✓ Compiled in 157ms
+[02:28:25.972] Server  LOG      ✓ Compiled in 91ms
+[02:29:36.204] Server  LOG      ✓ Compiled in 65ms
+[02:30:01.294] Server  LOG      ✓ Compiled in 85ms
+[02:30:23.802] Server  LOG      ✓ Compiled in 123ms
+[02:30:49.297] Server  LOG      ✓ Compiled in 61ms
+[02:30:54.622] Server  LOG      ✓ Compiled in 51ms
+[02:31:28.989] Server  LOG      ✓ Compiled in 72ms
+[02:31:29.844] Browser ERROR   uncaughtError: ReferenceError: select is not defined
+[02:31:38.335] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:31:38.356] Server  LOG      ✓ Compiled in 69ms
+[02:31:38.890] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\.next\dev\server\chunks\ssr\app_dashboard_page_tsx_42ef5b16._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:31:38.895] Server  ERROR    ⨯ ReferenceError: select is not defined
+[02:31:38.947] Browser ERROR   uncaughtError: ReferenceError: select is not defined
+[02:31:39.551] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:31:41.143] Browser ERROR   uncaughtError: ReferenceError: select is not defined
+[02:32:14.642] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:32:14.650] Server  LOG      ✓ Compiled in 128ms
+[02:32:15.067] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\.next\dev\server\chunks\ssr\app_dashboard_page_tsx_42ef5b16._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:32:15.068] Server  ERROR    ⨯ ReferenceError: select is not defined
+[02:32:15.667] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:32:16.835] Browser ERROR   uncaughtError: ReferenceError: select is not defined
+[02:32:18.249] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:32:18.251] Server  LOG      ✓ Compiled in 60ms
+[02:32:18.709] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\.next\dev\server\chunks\ssr\app_dashboard_page_tsx_42ef5b16._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:32:18.711] Server  ERROR    ⨯ ReferenceError: handleSelect is not defined
+[02:32:21.309] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:32:21.840] Browser ERROR   uncaughtError: ReferenceError: handleSelect is not defined
+[02:32:25.864] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:32:25.885] Server  LOG      ✓ Compiled in 77ms
+[02:32:26.463] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\.next\dev\server\chunks\ssr\app_dashboard_page_tsx_42ef5b16._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:32:26.466] Server  ERROR    ⨯ ReferenceError: select is not defined
+[02:32:27.109] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:32:27.851] Browser ERROR   uncaughtError: ReferenceError: select is not defined
+[02:32:37.650] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:32:37.667] Server  LOG      ✓ Compiled in 184ms
+[02:32:38.039] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\.next\dev\server\chunks\ssr\app_dashboard_page_tsx_42ef5b16._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:32:38.041] Server  ERROR    ⨯ ReferenceError: handleSelect is not defined
+[02:32:38.637] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:32:39.835] Browser ERROR   uncaughtError: ReferenceError: handleSelect is not defined
+[02:32:51.738] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:32:51.756] Server  LOG      ✓ Compiled in 110ms
+[02:32:53.097] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:32:53.778] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         style={{--vsc-domain:"\"localhost\""}}
+                        >
+                  ...
+
+[02:33:02.971] Server  LOG      ✓ Compiled in 61ms
+[02:33:28.728] Server  LOG      ✓ Compiled in 83ms
+[02:33:40.350] Server  LOG      ✓ Compiled in 99ms
+[02:33:56.683] Server  LOG      ✓ Compiled in 70ms
+[02:34:20.532] Server  LOG      ✓ Compiled in 120ms
+[02:34:37.033] Server  LOG      ✓ Compiled in 73ms
+[02:35:06.589] Server  LOG      ✓ Compiled in 81ms
+[02:36:37.175] Server  LOG      ✓ Compiled in 146ms
+[02:36:59.545] Server  LOG      ✓ Compiled in 96ms
+[02:38:43.207] Server  LOG      ✓ Compiled in 64ms
+[02:40:20.534] Server  LOG      ✓ Compiled in 190ms
+[02:41:55.830] Server  LOG      ✓ Compiled in 85ms
+[02:42:19.081] Server  LOG      ✓ Compiled in 63ms
+[02:43:03.903] Server  LOG      ✓ Compiled in 116ms
+[02:43:56.031] Server  LOG      ✓ Compiled in 199ms
+[02:44:40.883] Server  LOG      ✓ Compiled in 147ms
+[02:45:01.342] Server  LOG      ✓ Compiled in 65ms
+[02:45:13.325] Server  LOG      ✓ Compiled in 109ms
+[02:46:31.122] Server  LOG      ✓ Compiled in 135ms
+[02:46:57.147] Server  LOG      ✓ Compiled in 112ms
+[02:48:00.048] Server  LOG      ✓ Compiled in 96ms
+[02:48:22.879] Server  LOG      ✓ Compiled in 139ms
+[02:48:48.135] Server  LOG      ✓ Compiled in 122ms
+[02:48:48.834] Browser ERROR   uncaughtError: ReferenceError: handleHelp is not defined
+[02:48:57.961] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:48:57.982] Server  LOG      ✓ Compiled in 111ms
+[02:48:59.390] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:48:59.632] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         style={{--vsc-domain:"\"localhost\""}}
+                        >
+                          <head>
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           data-new-gr-c-s-check-loaded="14.1264.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[02:49:21.570] Server  LOG      ✓ Compiled in 66ms
+[02:49:45.459] Server  LOG      ✓ Compiled in 102ms
+[02:49:59.278] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:49:59.411] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           data-new-gr-c-s-check-loaded="14.1264.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[02:50:29.302] Server  LOG      ✓ Compiled in 113ms
+[02:51:54.203] Server  LOG      ✓ Compiled in 83ms
+[02:52:10.861] Server  LOG      ✓ Compiled in 74ms
+[02:52:34.055] Server  LOG      ✓ Compiled in 82ms
+[02:52:50.946] Server  LOG      ✓ Compiled in 133ms
+[02:52:58.332] Server  LOG      ✓ Compiled in 69ms
+[02:53:04.254] Server  LOG      ✓ Compiled in 56ms
+[02:56:30.529] Server  LOG      ✓ Compiled in 197ms
+[02:56:50.185] Server  LOG      ✓ Compiled in 115ms
+[02:57:17.418] Server  LOG      ✓ Compiled in 61ms
+[02:57:27.117] Server  LOG      ✓ Compiled in 117ms
+[02:57:33.302] Server  LOG      ✓ Compiled in 150ms
+[02:57:55.321] Server  LOG      ✓ Compiled in 67ms
+[02:58:51.116] Server  LOG      ✓ Compiled in 162ms
+[03:03:57.488] Server  LOG      ✓ Compiled in 368ms
+[03:03:57.698] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\.next\dev\server\chunks\ssr\node_modules_56b82b38._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:03:57.701] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:03:57.704] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\.next\dev\server\chunks\ssr\[root-of-the-server]__d67de484._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:03:57.793] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:03:57.797] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:03:57.809] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:03:57.813] Server  ERROR    ⨯ Error: Could not parse module '[project]/node_modules/next/dist/server/route-modules/app-page/vendored/contexts/html-context.js', file not found
+[03:03:57.817] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\.next\dev\server\chunks\ssr\node_modules_56b82b38._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:03:57.818] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:03:57.820] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\.next\dev\server\chunks\ssr\[root-of-the-server]__d67de484._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:03:57.825] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:03:57.827] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:03:57.831] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:03:57.836] Server  ERROR    ⨯ Error: Could not parse module '[project]/node_modules/next/dist/server/route-modules/app-page/vendored/contexts/html-context.js', file not found
+[03:04:00.858] Server  LOG      ○ Compiling /_error ...
+[03:04:03.024] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\.next\dev\server\chunks\ssr\node_modules_56b82b38._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:04:03.026] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:04:03.028] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\.next\dev\server\chunks\ssr\[root-of-the-server]__d67de484._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:04:03.045] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:04:03.047] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:04:03.061] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:04:03.064] Server  ERROR    ⨯ Error: Could not parse module '[project]/node_modules/next/dist/server/route-modules/app-page/vendored/contexts/html-context.js', file not found
+[03:04:03.082] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\.next\dev\server\chunks\ssr\node_modules_56b82b38._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:04:03.095] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:04:03.097] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\.next\dev\server\chunks\ssr\[root-of-the-server]__d67de484._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:04:03.113] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:04:03.115] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:04:03.126] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:04:03.129] Server  ERROR    ⨯ Error: Could not parse module '[project]/node_modules/next/dist/server/route-modules/app-page/vendored/contexts/html-context.js', file not found
+[03:04:03.779] Browser ERROR   uncaughtError: Error: Could not parse module '[project]/node_modules/next/dist/server/route-modules/app-page/vendored/contexts/html-context.js', file not found
+[03:04:34.849] Browser ERROR   ./app/dashboard/page.tsx:6:10
+Ecmascript file had an error
+  4 | import Main from "@/components/dashboard/Main";
+  5 |
+> 6 | import { Main } from "next/document";
+    |          ^^^^
+  7 |
+  8 |
+  9 | export default function DashboardPage() {
+
+the name `Main` is defined multiple times
+[03:04:34.850] Browser ERROR   ./app/dashboard/page.tsx:6:10
+Ecmascript file had an error
+  4 | import Main from "@/components/dashboard/Main";
+  5 |
+> 6 | import { Main } from "next/document";
+    |          ^^^^
+  7 |
+  8 |
+  9 | export default function DashboardPage() {
+
+the name `Main` is defined multiple times
+[03:05:06.289] Server  LOG      ✓ Compiled in 97ms
+[03:05:07.960] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:05:08.898] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         style={{--vsc-domain:"\"localhost\""}}
+                        >
+                  ...
+
+[03:05:51.317] Server  LOG      ✓ Compiled in 104ms
+[03:06:48.058] Server  LOG      ✓ Compiled in 74ms
+[03:08:16.779] Server  LOG      ✓ Compiled in 97ms
+[03:08:33.851] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `DashboardPage`.
+[03:08:52.529] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[03:08:52.530] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[03:08:53.275] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:08:54.848] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `DashboardPage`.
+[03:08:58.036] Server  ERROR    ⨯ ./app/dashboard/page.tsx:3:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  1 | import Image from "next/image";
+  2 | import SideBar from "@/components/dashboard/SideBar";
+> 3 | import Main from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 |
+  6 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:08:58.038] Server  ERROR    ⨯ ./app/dashboard/page.tsx:3:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  1 | import Image from "next/image";
+  2 | import SideBar from "@/components/dashboard/SideBar";
+> 3 | import Main from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 |
+  6 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:08:58.040] Server  ERROR    ⨯ ./app/dashboard/page.tsx:3:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  1 | import Image from "next/image";
+  2 | import SideBar from "@/components/dashboard/SideBar";
+> 3 | import Main from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 |
+  6 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:08:58.133] Server  ERROR    ⨯ ./app/dashboard/page.tsx:3:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  1 | import Image from "next/image";
+  2 | import SideBar from "@/components/dashboard/SideBar";
+> 3 | import Main from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 |
+  6 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:08:58.849] Browser ERROR   ./app/dashboard/page.tsx:3:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  1 | import Image from "next/image";
+  2 | import SideBar from "@/components/dashboard/SideBar";
+> 3 | import Main from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 |
+  6 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[03:08:58.851] Browser ERROR   ./app/dashboard/page.tsx:3:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  1 | import Image from "next/image";
+  2 | import SideBar from "@/components/dashboard/SideBar";
+> 3 | import Main from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 |
+  6 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[03:09:14.844] Browser ERROR   ./app/dashboard/page.tsx:3:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  1 | import Image from "next/image";
+  2 | import SideBar from "@/components/dashboard/SideBar";
+> 3 | import Main from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 |
+  6 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[03:09:14.844] Browser ERROR   ./app/dashboard/page.tsx:3:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  1 | import Image from "next/image";
+  2 | import SideBar from "@/components/dashboard/SideBar";
+> 3 | import Main from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 |
+  6 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[03:09:25.533] Server  LOG      ✓ Compiled in 94ms
+[03:09:26.590] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:09:27.573] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         style={{--vsc-domain:"\"localhost\""}}
+                        >
+                  ...
+
+[03:10:12.266] Server  LOG      ✓ Compiled in 104ms
