@@ -593,12 +593,12 @@ function Header() {
                         placeholder: "What do you need help with today?"
                     }, void 0, false, {
                         fileName: "[project]/components/dashboard/Header.tsx",
-                        lineNumber: 8,
+                        lineNumber: 13,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/dashboard/Header.tsx",
-                    lineNumber: 7,
+                    lineNumber: 12,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -610,12 +610,12 @@ function Header() {
                                 className: "fa-regular fa-envelope text-gray-700 hover:text-[#028714] text-xl"
                             }, void 0, false, {
                                 fileName: "[project]/components/dashboard/Header.tsx",
-                                lineNumber: 12,
+                                lineNumber: 17,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/dashboard/Header.tsx",
-                            lineNumber: 11,
+                            lineNumber: 16,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -624,12 +624,12 @@ function Header() {
                                 className: "fa-regular fa-bell text-gray-700 hover:text-[#028714] text-xl"
                             }, void 0, false, {
                                 fileName: "[project]/components/dashboard/Header.tsx",
-                                lineNumber: 15,
+                                lineNumber: 20,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/dashboard/Header.tsx",
-                            lineNumber: 14,
+                            lineNumber: 19,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -645,12 +645,12 @@ function Header() {
                                         alt: "Prakhar Gupta"
                                     }, void 0, false, {
                                         fileName: "[project]/components/dashboard/Header.tsx",
-                                        lineNumber: 19,
+                                        lineNumber: 24,
                                         columnNumber: 29
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/dashboard/Header.tsx",
-                                    lineNumber: 18,
+                                    lineNumber: 23,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -662,7 +662,7 @@ function Header() {
                                                 children: "Testing User"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/dashboard/Header.tsx",
-                                                lineNumber: 23,
+                                                lineNumber: 28,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -670,46 +670,46 @@ function Header() {
                                                 children: "testing@gmail.com"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/dashboard/Header.tsx",
-                                                lineNumber: 24,
+                                                lineNumber: 29,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/dashboard/Header.tsx",
-                                        lineNumber: 22,
+                                        lineNumber: 27,
                                         columnNumber: 29
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/dashboard/Header.tsx",
-                                    lineNumber: 21,
+                                    lineNumber: 26,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/dashboard/Header.tsx",
-                            lineNumber: 17,
+                            lineNumber: 22,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/dashboard/Header.tsx",
-                    lineNumber: 10,
+                    lineNumber: 15,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/dashboard/Header.tsx",
-            lineNumber: 6,
+            lineNumber: 11,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/dashboard/Header.tsx",
-        lineNumber: 5,
+        lineNumber: 10,
         columnNumber: 9
     }, this);
 }
 }),
-"[project]/components/dashboard/Main.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"[project]/components/dashboard/Dashboard.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
 __turbopack_context__.s([
@@ -731,28 +731,28 @@ function Dashboard({ activeTab }) {
         className: "flex-1 w-full",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$dashboard$2f$Header$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "[project]/components/dashboard/Main.tsx",
+                fileName: "[project]/components/dashboard/Dashboard.tsx",
                 lineNumber: 11,
                 columnNumber: 13
             }, this),
             activeTab === "calendar" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$dashboard$2f$Calendar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "[project]/components/dashboard/Main.tsx",
+                fileName: "[project]/components/dashboard/Dashboard.tsx",
                 lineNumber: 12,
                 columnNumber: 42
             }, this),
             activeTab === "settings" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$dashboard$2f$Settings$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "[project]/components/dashboard/Main.tsx",
+                fileName: "[project]/components/dashboard/Dashboard.tsx",
                 lineNumber: 13,
                 columnNumber: 42
             }, this),
             activeTab === "help" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$dashboard$2f$Help$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "[project]/components/dashboard/Main.tsx",
+                fileName: "[project]/components/dashboard/Dashboard.tsx",
                 lineNumber: 14,
                 columnNumber: 38
             }, this)
         ]
     }, void 0, true, {
-        fileName: "[project]/components/dashboard/Main.tsx",
+        fileName: "[project]/components/dashboard/Dashboard.tsx",
         lineNumber: 10,
         columnNumber: 9
     }, this);
@@ -768,7 +768,7 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$dashboard$2f$SideBar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/dashboard/SideBar.tsx [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$dashboard$2f$Main$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/dashboard/Main.tsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$dashboard$2f$Dashboard$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/dashboard/Dashboard.tsx [app-ssr] (ecmascript)");
 "use client";
 ;
 ;
@@ -787,7 +787,7 @@ function DashboardPage() {
                 lineNumber: 13,
                 columnNumber: 13
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$dashboard$2f$Main$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$dashboard$2f$Dashboard$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                 activeTab: activeTab
             }, void 0, false, {
                 fileName: "[project]/app/dashboard/page.tsx",
@@ -804,4 +804,4 @@ function DashboardPage() {
 }),
 ];
 
-//# sourceMappingURL=_fb21feb8._.js.map
+//# sourceMappingURL=_a1d1943f._.js.map

@@ -1,10 +1,5 @@
 import Image from "next/image";
 
-// interface HeaderProps {
-//     activeTab: string,
-//     setActiveTab: (value : string) => void;
-// }
-
 export default function Header() {
     return(
         <div>

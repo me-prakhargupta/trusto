@@ -766,10 +766,6 @@
     margin-block-end: calc(calc(var(--spacing) * 8) * calc(1 - var(--tw-space-y-reverse)));
   }
 
-  .overflow-x-hidden {
-    overflow-x: hidden;
-  }
-
   .rounded {
     border-radius: .25rem;
   }
@@ -826,10 +822,6 @@
 
   .border-\[\#028174\] {
     border-color: #028174;
-  }
-
-  .border-gray-50 {
-    border-color: var(--color-gray-50);
   }
 
   .border-gray-100 {

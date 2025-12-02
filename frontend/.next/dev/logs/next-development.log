@@ -1,397 +1,871 @@
-[00:00:03.233] Server  LOG      ✓ Ready in 2.6s
-[00:00:09.611] Server  LOG      ○ Compiling / ...
-[00:00:22.984] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:23.227] Browser WARN    Image with src "/brand-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:34.105] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:34.381] Browser WARN    Image with src "/brand-logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:02.719] Server  LOG      ✓ Ready in 1844ms
+[00:00:05.764] Server  LOG      ○ Compiling /dashboard ...
+[00:00:11.358] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:12.779] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         style={{--vsc-domain:"\"localhost\""}}
+                        >
+                  ...
+
+[00:00:53.915] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:53.918] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:53.927] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:53.931] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:53.938] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:53.943] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:53.945] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:53.952] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.155] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.219] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.262] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.316] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.329] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.340] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.380] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.397] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.408] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.434] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.475] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.489] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.515] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.536] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.541] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.551] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.565] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.585] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.600] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.603] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.608] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.618] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.620] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.625] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.637] Server  LOG      ✓ Compiled in 211ms
+[00:00:55.782] Browser ERROR   ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Main'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Main";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Main' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:00.400] Server  LOG      ✓ Compiled in 163ms
+[00:02:58.580] Browser WARN    Image with src "/brand-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:50.753] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:50.904] Browser WARN    Image with src "/brand-logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:02:58.275] Server  LOG      ✓ Compiled in 133ms
-[00:03:22.679] Server  LOG      ✓ Compiled in 105ms
-[00:03:23.534] Browser ERROR   ./components/dashboard/Dashboard.tsx:9:41
-Parsing ecmascript source code failed
-   7 |     return(
-   8 |         <div className="px-10 py-4 flex justify-center border rounded w-[calc(90vw-180px)] mb-5 ml-5 bg-gray-100 border-gray-50 shadow rounded>
->  9 |             {/* {activeTab === "calendar" && <Calendar/>} */}
-     |                                         ^^^^^^^^^^^^^^^^^^^^^
-  10 |             {activeTab === "settings" && <Setting/>}
-  11 |             {activeTab === "help" && <Help/>}
-  12 |         </div>
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./components/dashboard/Dashboard.tsx [Client Component Browser]
-    ./app/dashboard/page.tsx [Client Component Browser]
-    ./app/dashboard/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./components/dashboard/Dashboard.tsx [Client Component SSR]
-    ./app/dashboard/page.tsx [Client Component SSR]
-    ./app/dashboard/page.tsx [Server Component]
-[00:03:41.549] Server  LOG      ✓ Compiled in 186ms
-[00:03:56.397] Server  LOG      ✓ Compiled in 68ms
-[00:04:11.875] Server  LOG      ✓ Compiled in 115ms
-[00:04:19.148] Server  LOG      ✓ Compiled in 63ms
-[00:04:27.337] Server  LOG      ✓ Compiled in 80ms
-[00:04:36.790] Server  LOG      ✓ Compiled in 185ms
-[00:05:29.885] Server  LOG      ✓ Compiled in 151ms
-[00:05:38.875] Server  LOG      ✓ Compiled in 124ms
-[00:06:13.434] Server  ERROR    ⨯ ./app/dashboard/page.tsx:6:1
-Module not found: Can't resolve '@/components/dashboard/Dashboard'
-  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
-  5 | import DashboardHeader from "@/components/dashboard/Header";
-> 6 | import DashboardMain from "@/components/dashboard/Dashboard";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  7 |
-  8 |
-  9 | export default function DashboardPage() {
-
-Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/dashboard/page.tsx [Client Component Browser]
-    ./app/dashboard/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/dashboard/page.tsx [Client Component SSR]
-    ./app/dashboard/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:06:13.440] Server  ERROR    ⨯ ./app/dashboard/page.tsx:6:1
-Module not found: Can't resolve '@/components/dashboard/Dashboard'
-  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
-  5 | import DashboardHeader from "@/components/dashboard/Header";
-> 6 | import DashboardMain from "@/components/dashboard/Dashboard";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  7 |
-  8 |
-  9 | export default function DashboardPage() {
-
-Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/dashboard/page.tsx [Client Component Browser]
-    ./app/dashboard/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/dashboard/page.tsx [Client Component SSR]
-    ./app/dashboard/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:06:13.446] Server  ERROR    ⨯ ./app/dashboard/page.tsx:6:1
-Module not found: Can't resolve '@/components/dashboard/Dashboard'
-  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
-  5 | import DashboardHeader from "@/components/dashboard/Header";
-> 6 | import DashboardMain from "@/components/dashboard/Dashboard";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  7 |
-  8 |
-  9 | export default function DashboardPage() {
-
-Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/dashboard/page.tsx [Client Component Browser]
-    ./app/dashboard/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/dashboard/page.tsx [Client Component SSR]
-    ./app/dashboard/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:06:13.460] Server  ERROR    ⨯ ./app/dashboard/page.tsx:6:1
-Module not found: Can't resolve '@/components/dashboard/Dashboard'
-  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
-  5 | import DashboardHeader from "@/components/dashboard/Header";
-> 6 | import DashboardMain from "@/components/dashboard/Dashboard";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  7 |
-  8 |
-  9 | export default function DashboardPage() {
-
-Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/dashboard/page.tsx [Client Component Browser]
-    ./app/dashboard/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/dashboard/page.tsx [Client Component SSR]
-    ./app/dashboard/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:06:13.464] Server  ERROR    ⨯ ./app/dashboard/page.tsx:6:1
-Module not found: Can't resolve '@/components/dashboard/Dashboard'
-  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
-  5 | import DashboardHeader from "@/components/dashboard/Header";
-> 6 | import DashboardMain from "@/components/dashboard/Dashboard";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  7 |
-  8 |
-  9 | export default function DashboardPage() {
-
-Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/dashboard/page.tsx [Client Component Browser]
-    ./app/dashboard/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/dashboard/page.tsx [Client Component SSR]
-    ./app/dashboard/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:06:13.471] Server  ERROR    ⨯ ./app/dashboard/page.tsx:6:1
-Module not found: Can't resolve '@/components/dashboard/Dashboard'
-  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
-  5 | import DashboardHeader from "@/components/dashboard/Header";
-> 6 | import DashboardMain from "@/components/dashboard/Dashboard";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  7 |
-  8 |
-  9 | export default function DashboardPage() {
-
-Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/dashboard/page.tsx [Client Component Browser]
-    ./app/dashboard/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/dashboard/page.tsx [Client Component SSR]
-    ./app/dashboard/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:06:13.485] Server  ERROR    ⨯ ./app/dashboard/page.tsx:6:1
-Module not found: Can't resolve '@/components/dashboard/Dashboard'
-  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
-  5 | import DashboardHeader from "@/components/dashboard/Header";
-> 6 | import DashboardMain from "@/components/dashboard/Dashboard";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  7 |
-  8 |
-  9 | export default function DashboardPage() {
-
-Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/dashboard/page.tsx [Client Component Browser]
-    ./app/dashboard/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/dashboard/page.tsx [Client Component SSR]
-    ./app/dashboard/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:06:13.487] Server  ERROR    ⨯ ./app/dashboard/page.tsx:6:1
-Module not found: Can't resolve '@/components/dashboard/Dashboard'
-  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
-  5 | import DashboardHeader from "@/components/dashboard/Header";
-> 6 | import DashboardMain from "@/components/dashboard/Dashboard";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  7 |
-  8 |
-  9 | export default function DashboardPage() {
-
-Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/dashboard/page.tsx [Client Component Browser]
-    ./app/dashboard/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/dashboard/page.tsx [Client Component SSR]
-    ./app/dashboard/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:06:13.496] Server  ERROR    ⨯ ./app/dashboard/page.tsx:6:1
-Module not found: Can't resolve '@/components/dashboard/Dashboard'
-  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
-  5 | import DashboardHeader from "@/components/dashboard/Header";
-> 6 | import DashboardMain from "@/components/dashboard/Dashboard";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  7 |
-  8 |
-  9 | export default function DashboardPage() {
-
-Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/dashboard/page.tsx [Client Component Browser]
-    ./app/dashboard/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/dashboard/page.tsx [Client Component SSR]
-    ./app/dashboard/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:06:13.500] Server  ERROR    ⨯ ./app/dashboard/page.tsx:6:1
-Module not found: Can't resolve '@/components/dashboard/Dashboard'
-  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
-  5 | import DashboardHeader from "@/components/dashboard/Header";
-> 6 | import DashboardMain from "@/components/dashboard/Dashboard";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  7 |
-  8 |
-  9 | export default function DashboardPage() {
-
-Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/dashboard/page.tsx [Client Component Browser]
-    ./app/dashboard/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/dashboard/page.tsx [Client Component SSR]
-    ./app/dashboard/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:06:13.508] Server  ERROR    ⨯ ./app/dashboard/page.tsx:6:1
-Module not found: Can't resolve '@/components/dashboard/Dashboard'
-  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
-  5 | import DashboardHeader from "@/components/dashboard/Header";
-> 6 | import DashboardMain from "@/components/dashboard/Dashboard";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  7 |
-  8 |
-  9 | export default function DashboardPage() {
-
-Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/dashboard/page.tsx [Client Component Browser]
-    ./app/dashboard/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/dashboard/page.tsx [Client Component SSR]
-    ./app/dashboard/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:06:13.510] Server  ERROR    ⨯ ./app/dashboard/page.tsx:6:1
-Module not found: Can't resolve '@/components/dashboard/Dashboard'
-  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
-  5 | import DashboardHeader from "@/components/dashboard/Header";
-> 6 | import DashboardMain from "@/components/dashboard/Dashboard";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  7 |
-  8 |
-  9 | export default function DashboardPage() {
-
-Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
-
-
-Import traces:
-  Client Component Browser:
-    ./app/dashboard/page.tsx [Client Component Browser]
-    ./app/dashboard/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/dashboard/page.tsx [Client Component SSR]
-    ./app/dashboard/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:06:13.514] Server  LOG      ✓ Compiled in 169ms
-[00:06:14.535] Browser ERROR   ./app/dashboard/page.tsx:6:1
-Module not found: Can't resolve '@/components/dashboard/Dashboard'
-  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
-  5 | import DashboardHeader from "@/components/dashboard/Header";
-> 6 | import DashboardMain from "@/components/dashboard/Dashboard";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  7 |
-  8 |
-  9 | export default function DashboardPage() {
-
-Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
-
-Import traces:
-  Client Component Browser:
-    ./app/dashboard/page.tsx [Client Component Browser]
-    ./app/dashboard/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/dashboard/page.tsx [Client Component SSR]
-    ./app/dashboard/page.tsx [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:06:39.800] Server  LOG      ✓ Compiled in 118ms
-[00:09:22.179] Server  LOG      ✓ Compiled in 132ms
-[00:09:38.996] Server  LOG      ✓ Compiled in 209ms
-[00:09:54.903] Server  LOG      ✓ Compiled in 95ms
-[00:10:14.772] Server  LOG      ✓ Compiled in 132ms
-[00:10:45.374] Server  LOG      ✓ Compiled in 116ms
-[00:11:19.066] Server  LOG      ✓ Compiled in 173ms
-[00:11:31.214] Server  LOG      ✓ Compiled in 60ms
-[00:11:48.811] Server  LOG      ✓ Compiled in 121ms
-[00:12:12.870] Server  LOG      ✓ Compiled in 119ms
-[00:12:50.470] Server  LOG      ✓ Compiled in 131ms
-[00:12:59.787] Server  LOG      ✓ Compiled in 134ms
-[00:13:00.540] Browser ERROR   uncaughtError: ReferenceError: DashboardHeader is not defined
-[00:13:21.120] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:13:21.142] Server  LOG      ✓ Compiled in 50ms
-[00:13:21.502] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\.next\dev\server\chunks\ssr\_796f0dae._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:13:21.508] Server  ERROR    ⨯ ReferenceError: DashboardHeader is not defined
-[00:13:21.549] Browser ERROR   uncaughtError: ReferenceError: DashboardHeader is not defined
-[00:13:22.296] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:23.538] Browser ERROR   uncaughtError: ReferenceError: DashboardHeader is not defined
-[00:13:25.666] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:13:25.696] Server  LOG      ✓ Compiled in 71ms
-[00:13:26.045] Server  ERROR   C:\Users\praja\Desktop\Trusto\frontend\.next\dev\server\chunks\ssr\_ed5a8af7._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:13:26.046] Server  ERROR    ⨯ ReferenceError: setActiveTab is not defined
-[00:13:26.598] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:27.559] Browser ERROR   uncaughtError: ReferenceError: setActiveTab is not defined
-[00:14:29.353] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:14:29.381] Server  LOG      ✓ Compiled in 162ms
-[00:14:30.463] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:30.660] Browser WARN    Image with src "/brand-logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:14:30.660] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:06:50.904] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -430,7 +904,951 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:15:01.411] Server  LOG      ✓ Compiled in 56ms
-[00:16:11.922] Server  LOG      ✓ Compiled in 118ms
-[00:17:45.826] Server  LOG      ✓ Compiled in 74ms
-[00:17:59.207] Server  LOG      ✓ Compiled in 53ms
+[00:07:29.787] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.789] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.790] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.804] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.811] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.814] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.817] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.818] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.822] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.824] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.828] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.829] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.837] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.843] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.844] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.845] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.848] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.851] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.854] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.857] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.865] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.872] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.876] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.878] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.880] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.882] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.885] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.887] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.896] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.898] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.901] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.905] Server  ERROR    ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:29.908] Server  LOG      ✓ Compiled in 93ms
+[00:07:30.776] Browser ERROR   ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve '@/components/dashboard/Dashboard'
+  3 | import { useState } from "react";
+  4 | import DashboardSideBar from "@/components/dashboard/SideBar";
+> 5 | import DashboardMain from "@/components/dashboard/Dashboard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | export default function DashboardPage() {
+
+Import map: aliased to relative './components/dashboard/Dashboard' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:20.745] Server  LOG      ✓ Compiled in 101ms
+[00:09:21.767] Browser ERROR   ./components/dashboard/Main.tsx:9:25
+Ecmascript file had an error
+   7 |
+   8 |
+>  9 | export default function Dashboard({ activeTab }: { activeTab: string }) {
+     |                         ^^^^^^^^^
+  10 |     return(
+  11 |         <div className="flex-1 w-full">
+  12 |             <DashboardHeader/>
+
+the name `Dashboard` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Main.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Main.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+[00:11:32.795] Browser ERROR   ./components/dashboard/Main.tsx:9:25
+Ecmascript file had an error
+   7 |
+   8 |
+>  9 | export default function Dashboard({ activeTab }: { activeTab: string }) {
+     |                         ^^^^^^^^^
+  10 |     return(
+  11 |         <div className="flex-1 w-full">
+  12 |             <DashboardHeader/>
+
+the name `Dashboard` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Main.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Main.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+[00:11:39.778] Browser ERROR   ./components/dashboard/Main.tsx:9:25
+Ecmascript file had an error
+   7 |
+   8 |
+>  9 | export default function Dashboard({ activeTab }: { activeTab: string }) {
+     |                         ^^^^^^^^^
+  10 |     return(
+  11 |         <div className="flex-1 w-full">
+  12 |             <DashboardHeader/>
+
+the name `Dashboard` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Main.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Main.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+[00:13:48.258] Server  LOG      ✓ Compiled in 105ms
+[00:14:06.069] Browser WARN    Image with src "/brand-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:14:35.015] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:35.194] Browser WARN    Image with src "/brand-logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:17:40.721] Server  LOG      ✓ Compiled in 67ms
+[00:19:02.643] Server  LOG      ✓ Compiled in 79ms
+[00:20:18.282] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:18.451] Browser WARN    Image with src "/brand-logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:20:18.451] Browser WARN    Image with src "/brand-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:22.836] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:22.958] Browser WARN    Image with src "/brand-logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:23:06.130] Server  LOG      ✓ Compiled in 86ms
+[00:23:54.293] Server  LOG      ✓ Compiled in 66ms
+[00:24:08.198] Server  LOG      ✓ Compiled in 96ms
+[00:28:36.874] Server  LOG      ✓ Compiled in 113ms
+[00:32:05.141] Server  LOG      ✓ Compiled in 84ms
+[00:32:15.828] Server  LOG      ✓ Compiled in 130ms
+[00:32:30.240] Server  LOG      ✓ Compiled in 64ms
+[00:33:16.513] Server  LOG      ✓ Compiled in 126ms
+[00:38:04.835] Server  LOG      ✓ Compiled in 136ms
+[00:38:25.546] Server  LOG      ✓ Compiled in 125ms
+[00:38:33.147] Server  LOG      ✓ Compiled in 59ms
+[00:38:41.936] Server  LOG      ✓ Compiled in 117ms
+[00:38:48.665] Server  LOG      ✓ Compiled in 119ms
+[00:38:59.642] Server  LOG      ✓ Compiled in 98ms
+[00:39:04.153] Server  LOG      ✓ Compiled in 57ms
+[00:39:32.258] Server  LOG      ✓ Compiled in 64ms
+[00:39:40.638] Server  LOG      ✓ Compiled in 55ms
+[00:39:54.114] Server  LOG      ✓ Compiled in 61ms
+[00:40:01.622] Server  LOG      ✓ Compiled in 117ms
+[00:40:13.497] Server  LOG      ✓ Compiled in 213ms
+[00:40:19.208] Server  LOG      ✓ Compiled in 77ms
+[00:40:38.639] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:38.948] Browser WARN    Image with src "/brand-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:41:04.242] Server  LOG      ✓ Compiled in 111ms
+[00:41:11.303] Server  LOG      ✓ Compiled in 93ms
+[00:41:55.307] Server  LOG      ✓ Compiled in 119ms
+[00:42:08.698] Server  LOG      ✓ Compiled in 98ms
+[00:42:40.305] Server  LOG      ✓ Compiled in 120ms
+[00:43:06.193] Server  LOG      ✓ Compiled in 74ms
+[00:43:26.464] Server  LOG      ✓ Compiled in 116ms
+[00:43:47.851] Server  LOG      ✓ Compiled in 164ms
+[00:43:58.660] Server  LOG      ✓ Compiled in 61ms
+[00:44:03.513] Server  LOG      ✓ Compiled in 117ms
+[00:44:23.884] Server  LOG      ✓ Compiled in 110ms
+[00:44:29.016] Server  LOG      ✓ Compiled in 54ms
+[00:51:20.900] Server  LOG      ✓ Compiled in 94ms
+[00:51:44.936] Server  LOG      ✓ Compiled in 67ms
+[00:51:52.169] Server  LOG      ✓ Compiled in 132ms
+[00:52:13.216] Server  LOG      ✓ Compiled in 77ms
+[00:53:08.171] Server  LOG      ✓ Compiled in 78ms
+[00:53:13.401] Server  LOG      ✓ Compiled in 127ms
+[00:53:38.810] Server  LOG      ✓ Compiled in 136ms
+[00:54:00.075] Server  LOG      ✓ Compiled in 52ms
+[00:54:07.444] Server  LOG      ✓ Compiled in 74ms
